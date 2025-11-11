@@ -4,6 +4,7 @@ public class Auto {
     String modello;
     int kmPercorsi;
     String colore;
+    Pilota p;
 
     //costruttore con tutti i parametri
     public Auto(String marca, String modello, String colore, int kmPercorsi) {
