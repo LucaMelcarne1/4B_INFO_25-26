@@ -36,10 +36,17 @@ public class App {
         //oggetto Mirko Schirinzi
         Persona p4=new Persona("Mirko", "Schirinzi");
 
-
         //stampa oggetti p1 e p2
         System.out.println("cognome: " + p1.cognome +" nome: "+p1.nome);
         System.out.println("cognome: " + p2.cognome +" nome: "+p2.nome);
+
+        //creo un oggetto telefono
+        Telefono t1= new Telefono("iphone", "x", 590);
+        
+        //oggetto Angelo Lin
+        Persona p5= new Persona("Angelo", "Lin", t1);
+
+
         
     }
 }
