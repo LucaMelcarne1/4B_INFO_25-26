@@ -7,3 +7,4 @@ Repository 4B INFORMATICA A.S. 2025 - 2026
 <h3>ESERCITAZIONI</h3>
 <p><ul><li>PROGETTO DIETA: <a href="https://github.com/LucaMelcarne1/4B_INFO_25-26/tree/main/dieta">link</a> </li></ul></p>
 <p><ul><li>PROGETTO AUTO: <a href="https://github.com/LucaMelcarne1/4B_INFO_25-26/tree/main/auto">link</a> </li></ul></p>
+<p><ul><li>PROGETTO RISTORANTE: <a href="https://github.com/LucaMelcarne1/4B_INFO_25-26/tree/main/menuCapodanno">link</a> </li></ul></p>
