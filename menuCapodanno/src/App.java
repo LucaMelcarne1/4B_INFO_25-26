@@ -17,6 +17,7 @@ public class App {
         mV.secondo="frittura mista";
         mV.prezzo=50;
 
+
         //ristorante 1
         Ristorante r1= new Ristorante("Ristorante Turco", 
         "Tricase", "333333", mC);
@@ -29,8 +30,10 @@ public class App {
         Ristorante r3= new Ristorante("Ristorante Alemanno", 
         "Gallipoli", "3331233", mV);
 
-        //nel ristorante di Marina c'è il menu vuoto
-        
+        r3.prenota(5);
+        r3.prenota(45);
+        r3.prenota(17);
+            
 
 
 

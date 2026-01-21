@@ -24,8 +24,17 @@ public class Ristorante
     //output --> aggiorna il numero dei posti del ristorante
 
     public void prenota(int posti){
-        
-
+        postiDisponibili-=posti;
+        if(postiDisponibili>=0){
+            System.out.println("Prenotazione effettuata per " + posti +
+            " persone");
+            System.out.println("Posti disponibili aggiornati: "+postiDisponibili);
+        }
+           
+        else{
+            System.out.println("Ristorante pieno.");
+            postiDisponibili+=posti;
+        }
     }
 
 }
